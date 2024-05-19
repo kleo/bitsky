@@ -1,6 +1,6 @@
 # bitsky
 
-Bitbucket Pipelines to Skype webhook
+Bitbucket to Skype webhook
 
 ## Configure credentials
 
