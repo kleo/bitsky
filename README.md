@@ -20,7 +20,7 @@ group = 12:34567890abcdefghijklmnopqrstuvwx@thread.skype
 You can also add multiple accounts. For example on using Uptime Kuma 
 
 ```
-uptime_email = uptime-kuma@omail.com
+uptime_email = uptime-kuma@email.com
 uptime_password = supersecretpassword
 uptime_group = 19:2345ab6cd6789e0f1g23h4h5i6j7890c@thread.skype
 ```
