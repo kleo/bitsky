@@ -30,7 +30,15 @@ uptime_group = 19:2345ab6cd6789e0f1g23h4h5i6j7890c@thread.skype
 Simulate webhook trigger from Bitbucket
 
 ```
+$ git clone https://github.com/kleo/bitsky
+
+$ cd bitsky
+
 $ python -m venv --copies venv
+
+$ source venv/bin/activate
+
+$ pip install -r requirements.txt
 
 $ python src/bitsky.py
 
