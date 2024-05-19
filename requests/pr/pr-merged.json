@@ -1,0 +1,282 @@
+{
+  "repository": {
+    "type": "repository",
+    "full_name": "kbeflo/bitsky",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky"
+      },
+      "html": {
+        "href": "https://bitbucket.org/kbeflo/bitsky"
+      },
+      "avatar": {
+        "href": "https://bytebucket.org/ravatar/%7Bde9e0556-0fe2-4a6c-a1d4-87dcb6319d9e%7D?ts=default"
+      }
+    },
+    "name": "bitsky",
+    "scm": "git",
+    "website": null,
+    "owner": {
+      "display_name": "Kleo Bercero",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D"
+        },
+        "avatar": {
+          "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:22c01987-287a-4905-b8d3-f94a5580a105/5b489597-39f2-43dc-9e88-03bc93a6bd5f/128"
+        },
+        "html": {
+          "href": "https://bitbucket.org/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D/"
+        }
+      },
+      "type": "user",
+      "uuid": "{3a58e737-ab10-47f2-9f20-62e683d2d7b1}",
+      "account_id": "557058:22c01987-287a-4905-b8d3-f94a5580a105",
+      "nickname": "kbeflo"
+    },
+    "workspace": {
+      "type": "workspace",
+      "uuid": "{3a58e737-ab10-47f2-9f20-62e683d2d7b1}",
+      "name": "Kleo Bercero",
+      "slug": "kbeflo",
+      "links": {
+        "avatar": {
+          "href": "https://bitbucket.org/workspaces/kbeflo/avatar/?ts=1543687255"
+        },
+        "html": {
+          "href": "https://bitbucket.org/kbeflo/"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/workspaces/kbeflo"
+        }
+      }
+    },
+    "is_private": true,
+    "project": {
+      "type": "project",
+      "key": "BIT",
+      "uuid": "{dd3ba959-a3ec-4ad4-a413-18463a0f5710}",
+      "name": "bitbucket",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/workspaces/kbeflo/projects/BIT"
+        },
+        "html": {
+          "href": "https://bitbucket.org/kbeflo/workspace/projects/BIT"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/user/kbeflo/projects/BIT/avatar/32?ts=1687359609"
+        }
+      }
+    },
+    "uuid": "{de9e0556-0fe2-4a6c-a1d4-87dcb6319d9e}",
+    "parent": null
+  },
+  "actor": {
+    "display_name": "Kleo Bercero",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D"
+      },
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:22c01987-287a-4905-b8d3-f94a5580a105/5b489597-39f2-43dc-9e88-03bc93a6bd5f/128"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D/"
+      }
+    },
+    "type": "user",
+    "uuid": "{3a58e737-ab10-47f2-9f20-62e683d2d7b1}",
+    "account_id": "557058:22c01987-287a-4905-b8d3-f94a5580a105",
+    "nickname": "kbeflo"
+  },
+  "pullrequest": {
+    "comment_count": 0,
+    "task_count": 0,
+    "type": "pullrequest",
+    "id": 9,
+    "title": "Updating code to dazzle the algorithms",
+    "description": "",
+    "rendered": {
+      "title": {
+        "type": "rendered",
+        "raw": "Updating code to dazzle the algorithms",
+        "markup": "markdown",
+        "html": "<p>Updating code to dazzle the algorithms</p>"
+      },
+      "description": {
+        "type": "rendered",
+        "raw": "",
+        "markup": "markdown",
+        "html": ""
+      }
+    },
+    "state": "MERGED",
+    "merge_commit": {
+      "hash": "5b861e2b4bfe",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/commit/5b861e2b4bfe"
+        },
+        "html": {
+          "href": "https://bitbucket.org/kbeflo/bitsky/commits/5b861e2b4bfe"
+        }
+      },
+      "type": "commit"
+    },
+    "close_source_branch": false,
+    "closed_by": {
+      "display_name": "Kleo Bercero",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D"
+        },
+        "avatar": {
+          "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:22c01987-287a-4905-b8d3-f94a5580a105/5b489597-39f2-43dc-9e88-03bc93a6bd5f/128"
+        },
+        "html": {
+          "href": "https://bitbucket.org/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D/"
+        }
+      },
+      "type": "user",
+      "uuid": "{3a58e737-ab10-47f2-9f20-62e683d2d7b1}",
+      "account_id": "557058:22c01987-287a-4905-b8d3-f94a5580a105",
+      "nickname": "kbeflo"
+    },
+    "author": {
+      "display_name": "Kleo Bercero",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D"
+        },
+        "avatar": {
+          "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:22c01987-287a-4905-b8d3-f94a5580a105/5b489597-39f2-43dc-9e88-03bc93a6bd5f/128"
+        },
+        "html": {
+          "href": "https://bitbucket.org/%7B3a58e737-ab10-47f2-9f20-62e683d2d7b1%7D/"
+        }
+      },
+      "type": "user",
+      "uuid": "{3a58e737-ab10-47f2-9f20-62e683d2d7b1}",
+      "account_id": "557058:22c01987-287a-4905-b8d3-f94a5580a105",
+      "nickname": "kbeflo"
+    },
+    "reason": "",
+    "created_on": "2024-05-19T07:16:07.100780+00:00",
+    "updated_on": "2024-05-19T07:17:00.332311+00:00",
+    "destination": {
+      "branch": {
+        "name": "master"
+      },
+      "commit": {
+        "hash": "b97c45bedba2",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/commit/b97c45bedba2"
+          },
+          "html": {
+            "href": "https://bitbucket.org/kbeflo/bitsky/commits/b97c45bedba2"
+          }
+        },
+        "type": "commit"
+      },
+      "repository": {
+        "type": "repository",
+        "full_name": "kbeflo/bitsky",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky"
+          },
+          "html": {
+            "href": "https://bitbucket.org/kbeflo/bitsky"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bde9e0556-0fe2-4a6c-a1d4-87dcb6319d9e%7D?ts=default"
+          }
+        },
+        "name": "bitsky",
+        "uuid": "{de9e0556-0fe2-4a6c-a1d4-87dcb6319d9e}"
+      }
+    },
+    "source": {
+      "branch": {
+        "name": "develop"
+      },
+      "commit": {
+        "hash": "28d44122252f",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/commit/28d44122252f"
+          },
+          "html": {
+            "href": "https://bitbucket.org/kbeflo/bitsky/commits/28d44122252f"
+          }
+        },
+        "type": "commit"
+      },
+      "repository": {
+        "type": "repository",
+        "full_name": "kbeflo/bitsky",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky"
+          },
+          "html": {
+            "href": "https://bitbucket.org/kbeflo/bitsky"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bde9e0556-0fe2-4a6c-a1d4-87dcb6319d9e%7D?ts=default"
+          }
+        },
+        "name": "bitsky",
+        "uuid": "{de9e0556-0fe2-4a6c-a1d4-87dcb6319d9e}"
+      }
+    },
+    "reviewers": [],
+    "participants": [],
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9"
+      },
+      "html": {
+        "href": "https://bitbucket.org/kbeflo/bitsky/pull-requests/9"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/commits"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/approve"
+      },
+      "request-changes": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/request-changes"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/diff/kbeflo/bitsky:28d44122252f%0Db97c45bedba2?from_pullrequest_id=9&topic=true"
+      },
+      "diffstat": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/diffstat/kbeflo/bitsky:28d44122252f%0Db97c45bedba2?from_pullrequest_id=9&topic=true"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/comments"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/activity"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/merge"
+      },
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/decline"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/kbeflo/bitsky/pullrequests/9/statuses"
+      }
+    },
+    "summary": {
+      "type": "rendered",
+      "raw": "",
+      "markup": "markdown",
+      "html": ""
+    }
+  }
+}
