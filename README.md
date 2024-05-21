@@ -4,11 +4,14 @@ Bitbucket to Skype webhook
 
 ## Configure credentials
 
-Create an account for Skype and create `src/config.ini`
+1. Create an account for Skype
+2. Create a Skype group
+3. Invite other users to the newly created Skype group
+4. Find `ConversationId` on web.skype.com using Network Tools on your browser
 
-Create a Skype group 
+![](https://raw.githubusercontent.com/kleo/bitsky/master/screenshots/skype-group.png)
 
-Find `ConversationId` on web.skype.com using Network Tools on your browser.
+4. Add email, password and group to `src/config.ini`
 
 ```
 [config]
@@ -82,7 +85,7 @@ Using Caddy
 ```
 webhook.example.com {
 
-    reverse_proxy /push 127.0.0.1:8000
+        reverse_proxy /push 127.0.0.1:8000
 	reverse_proxy /build 127.0.0.1:8000
 	reverse_proxy /pr 127.0.0.1:8000
 	reverse_proxy /health 127.0.0.1:8000
@@ -98,6 +101,21 @@ webhook.example.com {
 	}
 }
 ```
+
+## Screenshots
+
+Build sucessful
+
+![](https://raw.githubusercontent.com/kleo/bitsky/master/screenshots/build-successful.png)
+
+Build failed
+
+![](https://github.com/kleo/bitsky/blob/master/screenshots/build-failed.png?raw=true)
+
+Open pull request
+
+![](https://raw.githubusercontent.com/kleo/bitsky/master/screenshots/pr-open.png)
+
 
 ## Acknowledgements
 
