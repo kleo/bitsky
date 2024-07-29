@@ -24,6 +24,27 @@ bitbucket_ch = bitbucket_sk.chats[bitbucket_group]
 
 app = Flask(__name__)
 
+@app.route('/status', methods=['POST'])
+def bitbucket_status():
+    if request.method == 'POST':
+        impact=request.json["incident"]["impact"]
+        impact_caps = impact.capitalize()
+        status=request.json["incident"]["incident_updates"][0]["status"]
+        status_caps = status.capitalize()
+        bitbucket_incident_status = (
+                                     "Atlassian Bitbucket Status", "\n",
+                                     "[{name}]({url})".format(name=request.json["incident"]["name"], url=request.json["incident"]["shortlink"]), "\n",
+                                     "Impact: " + impact_caps, "\n",
+                                     "Status: " + status_caps, "\n",
+                                     "{body}".format(body=request.json["incident"]["incident_updates"][0]["body"])
+                                    )
+
+        bitbucket_incident_status_data = "".join(
+            str(item) for item in bitbucket_incident_status)
+        bitbucket_ch.sendMsg(bitbucket_incident_status_data, rich=True)
+        return 'success', 200
+    else:
+        abort(400)
 
 @app.route('/health', methods=['GET'])
 def health_check():
